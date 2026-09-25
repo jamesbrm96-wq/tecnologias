@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - James Brandon Romero Macías</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f3f4f6;
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8; 
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased py-8 px-4 sm:px-8">
+
+    <!-- Main Container -->
+    <main class="max-w-6xl mx-auto flex flex-col lg:flex-row bg-white shadow-2xl rounded-2xl overflow-hidden">
+
+        <!-- Sidebar (Profile & Contact) -->
+        <aside class="w-full lg:w-1/3 bg-slate-900 text-white p-8 sm:p-10 flex flex-col items-center border-r border-slate-800 relative">
+            
+            <!-- Profile Image -->
+            <div class="relative mb-6 group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-brand-500 to-blue-400 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                <img src="watermarked_img_5571192701921998928.jpg" alt="Foto de James Brandon Romero" class="relative w-48 h-48 object-cover rounded-full border-4 border-slate-900 shadow-xl" onerror="this.src='https://placehold.co/400x400/1e293b/ffffff?text=JBR'">
+            </div>
+
+            <!-- Name and Title -->
+            <h1 class="text-3xl font-bold text-center mb-2 leading-tight">James Brandon <br> Romero Macías</h1>
+            <p class="text-brand-100 text-center font-medium mb-8 text-sm uppercase tracking-wider">Educador e Investigador</p>
+
+            <!-- Contact Actions -->
+            <div class="w-full space-y-4">
+                <a href="tel:8129005690" class="flex items-center justify-center gap-3 w-full bg-blue-600 hover:bg-blue-500 text-white py-3 px-4 rounded-xl font-semibold shadow-lg shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-1">
+                    <i class="fa-solid fa-phone text-lg"></i> Llamar
+                </a>
+                
+                <a href="https://wa.me/528129005690" target="_blank" class="flex items-center justify-center gap-3 w-full bg-[#25D366] hover:bg-[#20b858] text-white py-3 px-4 rounded-xl font-semibold shadow-lg shadow-green-500/30 transition-all duration-300 transform hover:-translate-y-1">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> WhatsApp
+                </a>
+
+                <a href="mailto:125195016@normalmsg.edu.mx" class="flex items-center justify-center gap-3 w-full bg-slate-700 hover:bg-slate-600 text-white py-3 px-4 rounded-xl font-semibold shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    <i class="fa-solid fa-envelope"></i> Enviar Correo
+                </a>
+
+                <a href="CV de educador en pedagogía de matemáticas.pdf" target="_blank" class="flex items-center justify-center gap-3 w-full bg-brand-600 hover:bg-brand-500 text-white py-3 px-4 rounded-xl font-semibold shadow-lg shadow-brand-500/30 transition-all duration-300 transform hover:-translate-y-1">
+                    <i class="fa-solid fa-file-pdf"></i> Ver / Descargar PDF
+                </a>
+            </div>
+
+            <hr class="w-full border-slate-700 my-8">
+
+            <!-- Location Map Button -->
+            <div class="w-full">
+                <h3 class="text-slate-400 uppercase text-xs font-bold tracking-wider mb-3"><i class="fa-solid fa-location-dot mr-2"></i>Ubicación</h3>
+                <a href="https://www.google.com/maps/place/Ju%C3%A1rez,+N.L." target="_blank" class="block group">
+                    <div class="bg-slate-800 border border-slate-700 hover:border-brand-500 p-4 rounded-xl flex items-center justify-between transition-colors duration-300 cursor-pointer">
+                        <div class="flex flex-col">
+                            <span class="font-semibold text-white">Juárez, Nuevo León</span>
+                            <span class="text-sm text-slate-400">Ver en Google Maps</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-right text-slate-500 group-hover:text-brand-500 transition-colors"></i>
+                    </div>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <section class="w-full lg:w-2/3 bg-gray-50 p-8 sm:p-12 lg:h-[90vh] lg:overflow-y-auto">
+            
+            <!-- Perfil Profesional -->
+            <div class="mb-12">
+                <h2 class="text-2xl font-bold text-slate-900 border-b-2 border-brand-500 pb-2 mb-6 inline-flex items-center gap-3">
+                    <i class="fa-solid fa-user-tie text-brand-600"></i> Perfil Profesional
+                </h2>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
+                    <p class="text-gray-700 leading-relaxed text-justify">
+                        Educador e investigador especializado en la pedagogía de las matemáticas para nivel secundaria, con enfoque en aprendizaje activo y desarrollo del pensamiento crítico. Comprometido con la calidad instruccional y el bienestar emocional en el aula. Experiencia en formulación de instrumentos de diagnóstico psicopedagógico y diseño de recursos digitales, interactivos y visuales que fomentan la curiosidad, la resiliencia y la participación significativa de los estudiantes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experiencia Docente y Profesional -->
+            <div class="mb-12">
+                <h2 class="text-2xl font-bold text-slate-900 border-b-2 border-brand-500 pb-2 mb-6 inline-flex items-center gap-3">
+                    <i class="fa-solid fa-briefcase text-brand-600"></i> Experiencia Docente y Profesional
+                </h2>
+                
+                <div class="space-y-6">
+                    <!-- Experiencia 1 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-300">
+                        <h3 class="text-xl font-bold text-slate-900">Docente Frente a Grupo</h3>
+                        <div class="flex items-center text-brand-600 font-medium mb-3 mt-1">
+                            <i class="fa-solid fa-school mr-2"></i>
+                            <span>Escuela Primaria Edgardo Reyes Salcido T.M. | <span class="text-gray-500">Presente</span></span>
+                        </div>
+                        <p class="text-gray-700">
+                            Implementación de estrategias didácticas y planes de clase para nivel primaria, promoviendo un ambiente de aprendizaje activo y seguro. Aplicación de metodologías enfocadas en el bienestar emocional y la mejora de la calidad instruccional.
+                        </p>
+                    </div>
+
+                    <!-- Experiencia 2 -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-300">
+                        <h3 class="text-xl font-bold text-slate-900">Diseñador y Creador de Contenido Visual</h3>
+                        <div class="flex items-center text-brand-600 font-medium mb-3 mt-1">
+                            <i class="fa-solid fa-pen-nib mr-2"></i>
+                            <span>Estudio de Tatuajes y Diseño Freelance | <span class="text-gray-500">Marzo 2026 - Presente</span></span>
+                        </div>
+                        <p class="text-gray-700">
+                            Conceptualización y producción de material publicitario digital (videos, gráficos verticales) y recursos impresos de alto impacto visual. Manejo de software especializado para ajuste de gráficos, mallas espaciales y diseño de esténciles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formación Académica -->
+            <div class="mb-12">
+                <h2 class="text-2xl font-bold text-slate-900 border-b-2 border-brand-500 pb-2 mb-6 inline-flex items-center gap-3">
+                    <i class="fa-solid fa-graduation-cap text-brand-600"></i> Formación Académica
+                </h2>
+                
+                <div class="relative border-l-2 border-brand-200 ml-3 md:ml-4 space-y-8 pb-4">
+                    
+                    <!-- Item 1 -->
+                    <div class="relative pl-6 sm:pl-8">
+                        <div class="absolute -left-2.5 bg-brand-500 h-5 w-5 rounded-full border-4 border-white shadow"></div>
+                        <h3 class="text-lg font-bold text-slate-900">Maestría en Educación <span class="text-sm font-normal text-gray-500 block sm:inline">(Especialidad en Pedagogía y Práctica Docente)</span></h3>
+                        <p class="text-brand-600 font-medium mb-2">Universidad Pedagógica Nacional | 2025 - Presente</p>
+                        <p class="text-gray-600 text-sm">Proyecto de investigación sobre matrices epistemológicas y metodológicas centradas en el bienestar emocional docente y la calidad de la instrucción matemática.</p>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="relative pl-6 sm:pl-8">
+                        <div class="absolute -left-2.5 bg-brand-500 h-5 w-5 rounded-full border-4 border-white shadow"></div>
+                        <h3 class="text-lg font-bold text-slate-900">Licenciatura en Educación Secundaria <span class="text-sm font-normal text-gray-500 block sm:inline">(Especialidad en Matemáticas)</span></h3>
+                        <p class="text-brand-600 font-medium mb-1">Escuela Normal Superior Profr. Moisés Sáenz Garza | 2025 - Presente</p>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="relative pl-6 sm:pl-8">
+                        <div class="absolute -left-2.5 bg-slate-300 h-5 w-5 rounded-full border-4 border-white shadow"></div>
+                        <h3 class="text-lg font-bold text-slate-900">Licenciatura en Educación Primaria</h3>
+                        <p class="text-gray-600 font-medium mb-1">Colegio Labastida | 2013 - 2017</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Capacitación y Competencias -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 border-b-2 border-brand-500 pb-2 mb-6 inline-flex items-center gap-3">
+                    <i class="fa-solid fa-award text-brand-600"></i> Capacitación y Competencias
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-white p-5 rounded-xl border border-gray-200 flex items-start gap-4">
+                        <div class="bg-blue-100 p-3 rounded-lg text-brand-600 mt-1">
+                            <i class="fa-solid fa-laptop-code text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Tecnologías Educativas</h4>
+                            <p class="text-gray-600 text-sm mt-1">Desmos Activity Builder, GeoGebra, Wordwall, Padlet.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-xl border border-gray-200 flex items-start gap-4">
+                        <div class="bg-green-100 p-3 rounded-lg text-green-600 mt-1">
+                            <i class="fa-solid fa-chalkboard-user text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">LMS (Sistemas de Gestión)</h4>
+                            <p class="text-gray-600 text-sm mt-1">Google Classroom, Google Forms, Google Slides.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-xl border border-gray-200 flex items-start gap-4">
+                        <div class="bg-purple-100 p-3 rounded-lg text-purple-600 mt-1">
+                            <i class="fa-solid fa-magnifying-glass-chart text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Investigación Curricular</h4>
+                            <p class="text-gray-600 text-sm mt-1">Redacción de protocolos de tesis, diseño de rúbricas, escalas estimativas y encuestas diagnósticas.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-xl border border-gray-200 flex items-start gap-4">
+                        <div class="bg-orange-100 p-3 rounded-lg text-orange-600 mt-1">
+                            <i class="fa-solid fa-language text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Idiomas y Organización</h4>
+                            <p class="text-gray-600 text-sm mt-1">Español nativo. Organización y planeación de eventos académicos, coloquios, e invitaciones en formato tabloide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
